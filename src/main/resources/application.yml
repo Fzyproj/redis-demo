@@ -1,0 +1,16 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: redis-demo
+  redis:
+    database: 0
+    host: 192.168.226.136
+    port: 6379
+    timeout: 3000
+    lettuce:
+      pool:
+        max-active: 8
+        max-wait: -1
+        max-idle: 8
+        min-idle: 0
